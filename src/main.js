@@ -1,6 +1,7 @@
-import Vue from 'vue'
-import App from './App.vue'
+installElement3(app)
+app.mount('#app')
 import router from './router'
+import installElement3 from './plugins/element.js'
 
 Vue.config.productionTip = false
 
